@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grievance Redressal System</title>
+    <link rel="stylesheet" href="ipm_project.css">
+    <script src="project.js"></script>
+</head>
+<body>
+
+
+    <header>
+        <div class="header-container">
+            <h1>Welcome to the Online Grievance Redressal Portal</h1>
+            <p>Submit your complaints, and we will address them as soon as possible</p>
+        </div>
+
+        <nav>
+            <ul>
+               <button id="btn-head" ><a target="_blank" href="https://pgportal.gov.in/">Home</a> </button>
+               <button id="btn-head" ><a target="_blank" href="/project3.contact.html">Contact Us</a></button>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <div class="web">
+        Welcome to our official complaint web page
+    </div>
+
+   
+    <div class="container">
+        <h2>Submit Your Complaint</h2>
+        <form action="/project2.html" method="POST" class="complaint-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tel">Contact Number :</label>
+                <input type="tel" id="tel" name="tel" placeholder="Put your mobile number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="number">Your Age :</label>
+                <input type="number" id="number" name="number" placeholder="Select your age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="department">Select Department Of Complaint :</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="Water Supply">Water Supply</option>
+                    <option value="Electricity">Electricity</option>
+                    <option value="Sanitation">Sanitation</option>
+                    <option value="Roads & Transport">Roads & Transport</option>
+                    <option value="Roads & Transport">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Adress :</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="complaint">Complaint:</label>
+                <textarea id="complaint" name="complaint" placeholder="Describe your issue" required></textarea>
+            </div>
+            
+    
+          
+          <form>
+            <button class="btn-submit" type="submit">submit_complaint</button>
+       </form>
+
+        </form>
+  
+    </div>
+
+   
+
+   
+    <footer>
+        <p>&copy; 2024 Online Grievance Redressal System | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
